@@ -8,7 +8,7 @@ function sendToWhatsApp() {
         var message = `Hola, mi nombre es ${name}, la cantidad de mayores que asistimos a la fiesta es: ${attendees} y de menores es: ${attendees2}.`;
 
         // Reemplaza '1234567890' con el número de teléfono al que deseas enviar el mensaje (sin el '+')
-        var phoneNumber = '5493516426244';
+        var phoneNumber = '5493513274623';
 
         var whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
